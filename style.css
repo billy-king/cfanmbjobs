@@ -1,14 +1,14 @@
 @font-face {
 	font-family: 'Apercu Bold';
-	src: url('../assets/apercu-bold.ttf');
+	src: url('apercu-bold.ttf');
 }
 @font-face {
 	font-family: 'Apercu Medium';
-	src: url('../assets/apercu-medium.ttf');
+	src: url('apercu-medium.ttf');
 }
 @font-face {
 	font-family: 'Apercu Regular';
-	src: url('../assets/apercu-regular.ttf');
+	src: url('apercu-regular.ttf');
 }
 
 html {
@@ -68,7 +68,7 @@ main {
      align-items: center;
      justify-content: center;
      background-color: rgba(0, 0, 0, .2);
-     background-image: linear-gradient(rgba(0,0,0,.2),rgba(221, 0, 51, 0.4)), url("../assets/Team Members.jpg");
+     background-image: linear-gradient(rgba(0,0,0,.2),rgba(221, 0, 51, 0.4)), url("Team Members.jpg");
      background-position: 50% 50%;
      color: white;
 }
