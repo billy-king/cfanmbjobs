@@ -1,0 +1,251 @@
+@font-face {
+	font-family: 'Apercu Bold';
+	src: url('../assets/apercu-bold.ttf');
+}
+@font-face {
+	font-family: 'Apercu Medium';
+	src: url('../assets/apercu-medium.ttf');
+}
+@font-face {
+	font-family: 'Apercu Regular';
+	src: url('../assets/apercu-regular.ttf');
+}
+
+html {
+     font-size: 62.5%;
+}
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+     /* border: 1px solid purple; */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+body {
+     font-family: 'Apercu Bold', Arial, Helvetica, sans-serif;
+     letter-spacing: -.03rem;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Flex Containers */
+header, main, section, header a, footer {
+     display: flex;
+}
+header {
+     position: absolute;
+     top: 0;
+     right: 0;
+     left: 0;
+     height: 100px;
+     align-items: center;
+     justify-content: center;
+}
+main {
+     height: 900px;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: rgba(0, 0, 0, .2);
+     background-image: linear-gradient(rgba(0,0,0,.2),rgba(221, 0, 51, 0.4)), url("../assets/Team Members.jpg");
+     background-position: 50% 50%;
+     color: white;
+}
+.mainWrapper {
+     flex-direction: column;
+     text-align: center;
+     justify-content: space-around;
+     height: 300px;
+     width: 75%;
+}
+h1 {
+     font-size: 6.2rem;
+     margin: 0;
+}
+main p {
+     font-size: 3rem;
+}
+.btn {
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 2rem;
+     padding: 2rem;
+     text-decoration: none;
+     width: auto;
+     color: #fff;
+     background: rgb(221, 0, 51);
+     border-radius: 5rem;
+}
+.btnSmall {
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 1.5rem;
+     padding: 1.5rem;
+     text-decoration: none;
+     width: auto;
+     color: #fff;
+     background: rgb(221, 0, 51);
+     border-radius: 3.75rem;
+}
+.btn:hover, .btnSmall:hover {
+     background: #af272f;
+}
+a img {
+     display: block;
+     width: 55px;
+     height: auto;
+     margin: auto;
+}
+header a {
+     width: 200px;
+}
+.wrapContainer {
+     flex-wrap: wrap;
+     width: 80%;
+     margin: 2.5rem auto;
+     justify-content: space-around;
+}
+.jobContainer, .jobCard {
+     flex-direction: column;
+     align-items: center;
+}
+.jobContainer {
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     width: 50%;
+}
+.jobContainer > * {
+     margin: 0;
+}
+.jobContainer h3 {
+     font-size: 3rem;
+     margin: 1rem 0;
+     color: #dd0033;
+}
+.jobContainer > address {
+     margin: .5rem 0;
+     font-size: 1.5rem;
+}
+.sectionHeader, .sectionDescription {
+     flex-basis: 100%;
+     text-align: center;
+     margin: 1.5rem 0;
+     width: 30%;
+}
+.sectionHeader {
+     font-size: 4.4rem;
+     color: #dd0033;
+}
+.sectionDescription {
+     font-size: 2rem;
+     font-family: 'Apercu Regular', Arial, Helvetica, sans-serif;
+}
+p {
+     font-family: 'Apercu Regular', Arial, Helvetica, sans-serif;
+}
+.jobContainer > iframe {
+     width: 80%;
+     height: 25rem;
+     border: 0;
+     margin: 2rem;
+}
+.jobCard {
+     height: 30rem;
+     justify-content: space-around;
+     background: #eef0f0;
+     border-radius: 4rem;
+}
+.jobCard > * {
+     margin: 0;
+}
+.jobContainer .jobCard {
+     width: 75%;
+     margin: 2rem 0;
+     text-align: center;
+}
+h4 {
+     font-size: 2.5rem;
+     color: #004f71;
+}
+.jobCard h4+p {
+     width: 75%;
+     font-size: 1.5rem;
+     flex-shrink: 3;
+}
+strong {
+     font-family: 'Apercu Bold', Arial, Helvetica, sans-serif;
+}
+ul {
+     padding-left: none;
+}
+li {
+     list-style-type: none;
+     font-size: 1.5rem;
+}
+footer * {
+     color: #fff;
+     margin: 0;
+     font-size: 1.2rem;
+     text-decoration: none;
+}
+footer {
+     background: #004f71;
+     height: 200px;
+}
+.footerContainer {
+     flex-direction: column;
+     width: 50%;
+     padding: 2rem 5rem;
+     justify-content: space-around;
+}
+footer img {
+     width: 2.5rem;
+}
+h6 {
+     font-size: 2rem;
+}
+.smLinks {
+     gap: 1rem;
+}
+.right * {
+     justify-content: flex-end;
+     align-items: flex-end;
+     text-align: right;
+}
+.footerContainer .footerStore {
+     font-size: 1.5rem;
+     font-family: 'Apercu Bold', Arial, Helvetica, sans-serif;
+}
+.smLinks span a {
+     font-size: 1.8rem;
+     font-family: 'Apercu Regular', Arial, Helvetica, sans-serif;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media all and (max-width: 1000px) {
+     .jobContainer {
+          width: 100%;
+     }
+}
