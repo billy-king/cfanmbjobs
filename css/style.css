@@ -43,7 +43,7 @@ html {
 
 
 body {
-     font-family: 'Apercu Bold', Arial, Helvetica, sans-serif;
+     font-family: 'Apercu Bold', 'Hanken Grotesk', Arial, Helvetica, sans-serif;
      letter-spacing: -.03rem;
 }
 
@@ -162,10 +162,10 @@ header a {
 }
 .sectionDescription {
      font-size: 2rem;
-     font-family: 'Apercu Regular', Arial, Helvetica, sans-serif;
+     font-family: 'Apercu Regular', 'Hanken Grotesk', Arial, Helvetica, sans-serif;
 }
 p {
-     font-family: 'Apercu Regular', Arial, Helvetica, sans-serif;
+     font-family: 'Apercu Regular', 'Hanken Grotesk', Arial, Helvetica, sans-serif;
 }
 .jobContainer > iframe {
      width: 80%;
@@ -197,7 +197,7 @@ h4 {
      flex-shrink: 3;
 }
 strong {
-     font-family: 'Apercu Bold', Arial, Helvetica, sans-serif;
+     font-family: 'Apercu Bold', 'Hanken Grotesk', Arial, Helvetica, sans-serif;
 }
 ul {
      padding-left: none;
@@ -238,11 +238,11 @@ h6 {
 }
 .footerContainer .footerStore {
      font-size: 1.5rem;
-     font-family: 'Apercu Bold', Arial, Helvetica, sans-serif;
+     font-family: 'Apercu Bold', 'Hanken Grotesk', Arial, Helvetica, sans-serif;
 }
 .smLinks span a {
      font-size: 1.8rem;
-     font-family: 'Apercu Regular', Arial, Helvetica, sans-serif;
+     font-family: 'Apercu Regular', 'Hanken Grotesk', Arial, Helvetica, sans-serif;
 }
 /******************************************
 /* ADDITIONAL STYLES
