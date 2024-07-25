@@ -1,17 +1,26 @@
 @font-face {
 	font-family: 'Apercu Bold';
-	src: url('../assets/apercu-bold.ttf') format('truetype'),
-          url('../assets/apercu-bold.woff') format('woff');
+	src: url('../assets/fonts/apercu-bold.ttf') format('truetype'),
+          url('../assets/fonts/apercu-bold-webfont.woff2') format('woff2'),
+          url('../assets/fonts/apercu-bold-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
 }
 @font-face {
 	font-family: 'Apercu Medium';
 	src: url('../assets/apercu-medium.ttf') format('truetype'),
-     url('../assets/apercu-medium.woff') format('woff');
+     url('../assets/fonts/apercu-bold-webfont.woff2') format('woff2'),
+     url('../assets/fonts/apercu-bold-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
 }
 @font-face {
 	font-family: 'Apercu Regular';
 	src: url('../assets/apercu-regular.ttf') format('truetype'),
-     url('../assets/apercu-regular.woff') format('woff');
+     url('../assets/fonts/apercu-bold-webfont.woff2') format('woff2'),
+     url('../assets/fonts/apercu-bold-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
 }
 
 html {
